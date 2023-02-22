@@ -1,0 +1,46 @@
+
+database name: sample_training
+
+Document name: companies
+
+
+Important Attributes:
+                        _id
+                        name
+                        homepage_url
+                        blog_url
+                        twitter_username
+                        number_of_employees
+                        founded_year
+                        founded_month
+                        founded_day
+
+
+
+
+
+{
+"_id":{"$oid":"52cdef7c4bab8bd675297d8e"},
+"name":"Facebook","permalink":"facebook",
+"crunchbase_url":"http://www.crunchbase.com/company/facebook",
+"homepage_url":"http://facebook.com",
+"blog_url":"http://blog.facebook.com",
+"blog_feed_url":"http://blog.facebook.com/atom.php",
+"twitter_username":"facebook",
+"category_code":"social",
+"number_of_employees":{"$numberInt":"5299"},
+"founded_year":{"$numberInt":"2004"},
+"founded_month":{"$numberInt":"2"},
+"founded_day":{"$numberInt":"1"},
+"deadpooled_year":null,
+"deadpooled_month":null,
+"deadpooled_day":null,
+"deadpooled_url":"",
+"tag_list":"facebook, college, students, profiles, network, online-communities, social-networking",
+"alias_list":"",
+"email_address":"",
+"phone_number":"",
+"description":"Social network",
+"created_at":"Fri May 25 21:22:15 UTC 2007",
+"updated_at":"Thu Nov 21 19:40:55 UTC 2013"
+}
